@@ -128,10 +128,10 @@ while run:
 
     new = current.check_neighbours()
 
+    # Step 2 of the algorithm
     if new is not None:
         new.visited = True
 
-        # Step 2 of the algorithm
         stack.append(current)
 
         # Step 3 of the algorithm
