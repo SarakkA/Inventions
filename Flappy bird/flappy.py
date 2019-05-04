@@ -21,7 +21,6 @@ bir = py.image.load('big_flappy.png').convert_alpha()
 img = py.image.load('flappy_d_buono.png').convert_alpha()
 img2 = py.image.load('top_pipe.png').convert_alpha()
 img3 = py.image.load('coin.png').convert_alpha()
-d_bg = py.image.load('dark_bg.png').convert_alpha()
 img4 = py.image.load('fly_flap.png').convert_alpha()
 
 wn.blit(bg, (0, 0))
