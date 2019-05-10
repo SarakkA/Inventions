@@ -1,3 +1,9 @@
+'''
+    This is my (poorly) version of the famous game Arkanoid.
+    There are 5 different levels, at random order, switch them by losing the game or by hitting all the blocks in the current level.
+
+'''
+
 import pygame as py
 import math
 import random
