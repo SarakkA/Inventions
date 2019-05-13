@@ -1,3 +1,9 @@
+'''
+    This code generates a "perfect" square maze using the depth-first search algorithm. 
+    I used the Pygame library to visualize how the algorithm works.
+    One can set the variable "w" smaller (like 15 or 6) in order to create bigger mazes.
+'''
+
 import pygame as py
 import random
 
